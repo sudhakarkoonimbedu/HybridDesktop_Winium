@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="2">  
+  <test name="PointofServiceFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PointofServiceFeature_TestRunner"/>        
+    </classes>
+  </test>
+<test name="DMRFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.DMRFeature_TestRunner"/>        
+    </classes>
+  </test>
+  <test name="AuthRecordFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.AuthRecordFeature_TestRunner"/>        
+    </classes>
+  </test>
+<!--   <test name="POSErrorFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.POSErrorFeature_TestRunner"/>        
+    </classes>
+  </test> -->
+  <test name="ClaimTestFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.ClaimTestFeature_TestRunner"/>        
+    </classes>
+  </test>
+  <test name="ClaimInquiryFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.ClaimInquiryFeature_TestRunner"/>        
+    </classes>
+  </test>
+  <test name="MemberRecordFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.MemberRecordFeature_TestRunner"/>        
+    </classes>
+  </test>
+  <test name="GroupRecordFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.GroupRecordFeature_TestRunner"/>        
+    </classes>
+  </test>
+  <test name="CustomerFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.CustomerFeature_TestRunner"/>        
+    </classes>
+  </test>
+  <test name="ClientFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.ClientFeature_TestRunner"/>        
+    </classes>
+  </test>
+  <test name="PrescriberRecordsFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PrescriberRecordsFeature_TestRunner"/>        
+    </classes>
+  </test>
+  <test name="PharmacySimulationFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PharmacySimulationFeature_TestRunner"/>        
+    </classes>
+  </test>
+  <test name="PharmacyPlanFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PharmacyPlanFeature_TestRunner"/>        
+    </classes>
+  </test>                               
+  <test name="PharmacyNetworkFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PharmacyNetworkFeature_TestRunner"/>        
+    </classes>
+  </test>
+  <test name="PharmacyFinancialFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PharmacyFinancialFeature_TestRunner"/>        
+    </classes>
+  </test>    
+  <test name="PharmacySearchFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PharmacySearchFeature_TestRunner"/>        
+    </classes>
+   </test>
+   <test name="PharmacyFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PharmacyFeature_TestRunner"/>        
+    </classes>
+   </test>
+  <test name="PharmacyGlobalFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PharmacyGlobalFeature_TestRunner"/>        
+    </classes>
+   </test>
+  <test name="PharmacyCustomerFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PharmacyCustomerFeature_TestRunner"/>        
+    </classes>
+   </test>
+  <test name="PlanlistTableMaintenanceFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PlanlistTableMaintenanceFeature_TestRunner"/>        
+    </classes>
+   </test>
+  <test name="PlanlistModuleDefinitionFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PlanlistModuleDefinitionFeature_TestRunner"/>        
+    </classes>
+   </test>
+  <test name="PlanlistBrowseFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PlanlistBrowseFeature_TestRunner"/>        
+    </classes>
+   </test>
+  <test name="DeductiblePlanFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.DeductiblePlanFeature_TestRunner"/>        
+    </classes>
+   </test>
+  <test name="PlanlistPostPayFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PlanlistPostPayFeature_TestRunner"/>        
+    </classes>
+   </test>
+  <test name="PlanlistCostPlanFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PlanlistCostPlanFeature_TestRunner"/>        
+    </classes>
+   </test>
+  <test name="PlanlistBenefitPlanFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PlanlistBenefitPlanFeature_TestRunner"/>        
+    </classes>
+   </test>
+  <test name="DeductibleFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.DeductibleFeature_TestRunner"/>        
+    </classes>
+   </test>
+  <test name="CoverageFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.CoverageFeature_TestRunner"/>        
+    </classes>
+   </test>
+  <test name="PaymentHistoryInquiryFeature">    
+    <classes>
+        <class name="DSTPSAutomation.HybridDesktopGUI.runners.PaymentHistoryInquiryFeature_TestRunner"/>        
+    </classes>
+   </test>                                         
+ </suite> <!-- Suite   -->
+ 
